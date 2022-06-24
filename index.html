@@ -1,0 +1,42 @@
+<!--
+    Title: Go Gradients!
+    Creator: Franklan T. 
+    Date: June 23rd, 2022
+    Description: Choose two colors and play 
+    around with the gradients those colors make
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Icon from https://www.kyfeas.com.cy/shape-gradienta2-png/-->
+    <link rel="icon" href="images/gradient-icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/style.css">
+    <title>Go Gradients!</title>
+</head>
+<body>
+    <p id="myP">Go Gradients!</p>
+    <div class="textboxcontainer">
+        <label>Enter First and Second Color</label><br><br>
+        <input id="firstColor" type="text" value="white">
+        <input id="secondColor" type="text" value="black">
+        <button id="applyBtn" type="button">Apply Colors</button>
+    </div>
+    <br><canvas id="myCanvas" width="500" height="500"></canvas>
+    <div class="buttonContainer">
+        <button id="run" type="button">Run</button>
+        <button id="stop" type="button">Stop</button>
+    </div>
+    <div class="slidecontainer">
+        <p>X-axis Gradient Fill:</p>
+        <input id="firstColorX" type="range" min="1" max="500" value="450">
+
+        <p>Y-axis Gradient Fill: </p>
+        <input id="firstColorY" type="range" min="1" max="500" value="50">
+    </div>
+    <script src="source/index.js"></script>
+</body>
+</html>

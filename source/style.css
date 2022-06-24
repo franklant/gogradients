@@ -1,0 +1,83 @@
+/* Go Gradients - CSS */
+@font-face {
+    font-family:MontBold;
+    src:url("./fonts/static/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+    font-family:MontReg;
+    src:url("./fonts/static/Montserrat-Regular.ttf");
+}
+html {
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: MontReg;
+}
+canvas {
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+}
+
+button {
+    background-color: grey;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: MontBold;
+}
+button:hover {
+    background-color: rgb(70, 70, 70);
+    border-color:rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+input {
+
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    font-family: MontReg;
+    text-align: left;
+}
+input:hover {
+    border-color: rgb(0, 166, 255);
+}
+
+#myP {
+    font-family: MontBold;
+}
+
+
+#firstColorX {
+    appearance: none;
+    height: 10px;
+}
+
+#firstColorY {
+    appearance: none;
+    height: 10px;
+}
+
+#firstColorX::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background:#3399ff;
+    cursor: pointer;
+}
+
+#firstColorY::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background:#3399ff;
+    cursor: pointer;
+}
